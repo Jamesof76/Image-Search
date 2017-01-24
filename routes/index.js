@@ -13,7 +13,7 @@ var url = process.env.IMAGESEARCH_URL;
 
 
 router.get('/', (req, res) => {
-	res.send('https://fast-everglades-24979.herokuapp.com/search/<search_item>?offset=10 --- https://fast-everglades-24979.herokuapp.com/latest');
+	res.send('https://fast-everglades-24979.herokuapp.com/search/digital?offset=10 --- https://fast-everglades-24979.herokuapp.com/latest');
 });
 
 router.get('/latest', (req, res) => {
