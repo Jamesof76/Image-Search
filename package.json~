@@ -1,0 +1,16 @@
+{
+  "name": "ImageSearch",
+  "version": "1.0.0",
+  "description": "imgurAPI",
+  "main": "app.js",
+  "repository": "https://github.com/Jamesof76/Image-Search.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.7",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
